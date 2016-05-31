@@ -13,6 +13,7 @@
   <!-- build:css styles/vendor.css -->
   <!-- bower:css -->
   <link rel='stylesheet' href='/bower_components/Materialize/bin/materialize.css' />
+  <link rel='stylesheet' href='/bower_components/fullpage.js/dist/jquery.fullpage.css' />
   <!-- endbower -->
   <!-- endbuild -->
 
@@ -29,25 +30,27 @@
   <!--[if lt IE 10]>
       <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
-    
-    <div>
-      <h1 class="white-text center" id="myName">alec gerona</h1>
-    </div>
-    
-    <div class="center">
-      <a class="hvr-float-shadow" href="#"><i class="fa fa-facebook-square fa-4x brand-logo"></i></a>
-      <a class="hvr-float-shadow" href="#"><i class="fa fa-github-square fa-4x brand-logo"></i></a>
-      <a class="hvr-float-shadow" href="#"><i class="fa fa-gitlab fa-4x brand-logo"></i></a>
-      <a class="hvr-float-shadow" href="#"><i class="fa fa-linkedin fa-4x brand-logo"></i></a>
-      <br>
+    <div class="pseudo-header">
+      <div>
+        <h1 class="white-text center animated fadeInUp" id="myName">alec gerona</h1>
+      </div>
       
-      <a class="white-text link href="#">My resume</a>
-      
-      
+      <div class="center">
+        <a class="hvr-float-shadow" href="#"><i class="fa fa-facebook-square fa-4x brand-logo"></i></a>
+        <a class="hvr-float-shadow" href="#"><i class="fa fa-github-square fa-4x brand-logo"></i></a>
+        <a class="hvr-float-shadow" href="#"><i class="fa fa-gitlab fa-4x brand-logo"></i></a>
+        <a class="hvr-float-shadow" href="#"><i class="fa fa-linkedin fa-4x brand-logo"></i></a>
+        <br>
+        
+        <p class="white-text text"><a class="white-text link" href="#">My resume.</a> Or scroll on. You know you want to.</p>
+        
+        
+      </div>
     </div>
     
     <div class="section red darken-4">
-    
+      <p class="white-text dialogue"> Good.</p>
+      <p class="white-text dialogue" align="right"> Let's begin.</p>
     </div>
 
 
@@ -77,6 +80,9 @@
   <script src="/bower_components/Materialize/bin/materialize.js"></script>
   <script src="/bower_components/scrollmagic/scrollmagic/uncompressed/ScrollMagic.js"></script>
   <script src="/bower_components/gsap/src/uncompressed/TweenMax.js"></script>
+  <script src="/bower_components/fullpage.js/dist/jquery.fullpage.js"></script>
+  <script src="/bower_components/fullpage.js/vendors/jquery.easings.min.js"></script>
+  <script src="/bower_components/fullpage.js/vendors/scrolloverflow.min.js"></script>
   <!-- endbower -->
   <!-- endbuild -->
 
