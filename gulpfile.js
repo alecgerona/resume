@@ -159,3 +159,8 @@ gulp.task('build', ['lint', 'html', 'images', 'fonts', 'extras'], () => {
 gulp.task('default', ['clean'], () => {
   gulp.start('build');
 });
+
+gulp.task('icons', function() {
+    return gulp.src('bower_components/font-awesome/fonts/**.*')
+        .pipe(gulp.dest('./public/fonts'));
+});

@@ -36,3 +36,9 @@ body {
   font-size:200%;
   text-decoration: underline;
 }
+
+.brand-logo{
+  color: white;
+  padding-left: 0.5%;
+  padding-right: 0.5%;
+}
