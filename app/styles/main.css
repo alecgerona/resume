@@ -4,10 +4,6 @@ body {
   color: #333;
 }
 
-.pseudo-header{
-  margin-top:4%;
-}
-
 .dialogue {
   font-size: 700%;
 }
@@ -52,6 +48,7 @@ body {
   color: white;
 }
 
+/*Hover effects*/
 
 .hvr-float-shadow {
   padding-left: 0.5%;
